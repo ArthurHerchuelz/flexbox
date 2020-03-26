@@ -1,9 +1,9 @@
-.box {
+#box {
     display: flex ;
     justify-content: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
-    width: 50%;
+    width: 75%;
     height: 200px;
 }
  .vert {
@@ -16,48 +16,46 @@
     width: 20%;
     background-color: blue;
 }
-.multi{
-  display: flex;
-  justify-content: flex-end;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  height: 100%;
-  width: 66.666%;
-}
-
   .rouge{
     height: 40%;
     width: 33.3333%;
     background-color: red;
 }
+  .multi{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 40%;
+    width: 66.666%;
+
+  }
   .orange{
-    height: 20%;
-    width: 33.3333%;
+    height: 50%;
+    width: 50%;
     background-color: orange;
 }
   .gris{
-    height: 20%;
-    width: 33.3333%;
+    height: 50%;
+    width: 50%;
     background-color: #9e9e9e;
 }
   .jaune{
-    height: 20%;
-    width: 22%;
+    height: 50%;
+    width: 33.333%;
     background-color: yellow;
-
-  }
+}
   .turquoise{
-    height: 20%;
-    width: 22%;
+    height: 50%;
+    width: 33.333%;
     background-color:#24857c;
-  }
+}
   .rouille {
-    height: 20%;
-    width: 22%;
+    height: 50%;
+    width: 33.333%;
     background-color:#c05b0b;
-  }
+}
   .bleugris{
     height: 50%;
     width: 100%;
     background-color: #303948;
-  }
+}
