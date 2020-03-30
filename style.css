@@ -1,61 +1,68 @@
 #box {
     display: flex ;
-    justify-content: flex-start;
-    align-content: flex-start;
     flex-wrap: wrap;
-    width: 75%;
     height: 200px;
 }
- .vert {
+/* 1ere ligne */
+/* vert */
+ #bloc1l1 {
     height: 10%;
     width: 80%;
-    background-color: green;
+    background-color: #2ECC71;
 }
- .bleu {
+/* bleu */
+ #bloc2l1 {
     height: 10%;
     width: 20%;
-    background-color: blue;
+    background-color: #2980B9;
 }
-  .rouge{
+/* 2eme ligne */
+/* rouge */
+  #bloc1l2{
     height: 40%;
-    width: 33.3333%;
-    background-color: red;
+    width: 33.3%;
+    background-color: #E74C3C;
 }
-  .multi{
+  #boxPart2l2{
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     height: 40%;
-    width: 66.666%;
-
+    width: 66.7%;
   }
-  .orange{
+  /* orange */
+  #bloc1l1Part2{
     height: 50%;
     width: 50%;
-    background-color: orange;
+    background-color: #E67E22;
 }
-  .gris{
+/* gris */
+  #bloc2l1Part2{
     height: 50%;
     width: 50%;
-    background-color: #9e9e9e;
+    background-color: #95A5A6;
 }
-  .jaune{
+/* jaune */
+  #bloc1l2Part2{
     height: 50%;
-    width: 33.333%;
-    background-color: yellow;
+    width: 33.3%;
+    background-color: #F39C12;
 }
-  .turquoise{
+/* bleu vert */
+  #bloc2l2Part2{
     height: 50%;
-    width: 33.333%;
-    background-color:#24857c;
+    width: 33.3%;
+    background-color:#16A085;
 }
-  .rouille {
+/* marron */
+  #bloc3l2Part2 {
     height: 50%;
-    width: 33.333%;
-    background-color:#c05b0b;
+    width: 33.4%;
+    background-color:#D35400;
 }
-  .bleugris{
+/* 3eme ligne */
+/* bleu foncé */
+  #bloc1l3{
     height: 50%;
     width: 100%;
-    background-color: #303948;
+    background-color: #2C3E50;
 }
